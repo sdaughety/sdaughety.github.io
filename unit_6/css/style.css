@@ -2,12 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
 body {
-	background-color: #BBD1F2;
+	background-color: white;
 	font-size: 16px; /* 1em = 16px */
 }
 
 h1 {
-	color: #3178B2;
+	color: white;
 	font-family: Lato, sans-serif;
 	text-align: center;
 	font-size: 3em;	
@@ -15,18 +15,18 @@ h1 {
 }
 
 h2, h3, h4 {
-
+	color: #505251;
 	margin: 1em;
 }
 
 header {
-	background-color: #FFED74;
+	background-color: #FF6643;
     border: 1px black solid;
     padding: 20px;
 }
 
 nav {
-	background-color: #E8C66A;
+	background-color: #FFC9BD;
     border: 1px black solid;
     padding: 20px;
 	text-align: center;
@@ -42,51 +42,50 @@ a {
 }
 
 main {
-
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 section {
-	background-color: #FFE2B8;
+	background-color: #FFC9BD;
     border: 1px black solid;
     padding: 20px;
-
 }
 
 #two_column {
-	background-color: #FFB7CF;
+	background-color: #FF6643;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 #left {
-	background-color: #E582A2;
+	background-color: #FFC9BD;
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
+	width: 30%;
 }
 
 #right {
-	background-color: #E55B88;
+	background-color: #FFC9BD;
 	border: 1px black solid;
 	padding: 20px;
+	float: right;
+	width: 62%;
 }
 
 article {
-	background-color: #E89C6C;
+	background-color: #FF6643;
     border: 1px black solid;
     padding: 20px;
 }
 
 #veg {
-
-	width: 100%;
+	width: 98%;
 	margin: 2em;
 }
 
 #egg {
-
 	width: 30em;
 	margin: 2em;
 }
@@ -106,7 +105,6 @@ p {
 }
 
 ul, ol {
-
 	width: 23em;
 	font-size: 1.2em;
 	margin: 2em;
@@ -114,8 +112,19 @@ ul, ol {
 
 
 footer {
-	background-color: #FF957E;
+	background-color: #FFC9BD;
     border: 1px black solid;
     padding: 20px;
 	text-align: center;
+	clear: both;
 }
+
+.clearfix:after {
+	display: block;
+	content: ".";
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
+
