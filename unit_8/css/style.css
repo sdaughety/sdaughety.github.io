@@ -132,7 +132,6 @@ footer {
 		float: left;
 		}
 	#veg {
-		width: 60%;	
 		}
 	nav {
 		width: 60%;
@@ -147,5 +146,19 @@ footer {
 		width: 60%;
 	}
 
-}*/
 
+}*/
+@media only screen and (max-width: 1114px) {
+
+	article {
+		padding: 0em;
+	}
+	#left {
+		width: 100%;
+		padding: 0em;
+	}
+	#right {
+		width: 100%;
+		padding: 0em;
+	}
+}
