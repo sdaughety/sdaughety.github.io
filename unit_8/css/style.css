@@ -86,7 +86,7 @@ article {
 }
 
 #egg {
-	width: 30em;
+	width: 85%;
 	margin: 2em;
 }
 
@@ -98,14 +98,12 @@ article {
 
 p {
 	font-family: Merriweather, serif;
-	width: 30em;
 	font-size: 1em;
 	line-height: 1.5em;
 	margin: 2em;
 	}
 
 ul, ol {
-	width: 23em;
 	font-size: 1.2em;
 	margin: 2em;
 }
@@ -127,4 +125,27 @@ footer {
 	visibility: hidden;
 	height: 0;
 }
+
+/*@media only screen and (max-width: 1280px) {
+	#right {
+		width: 30%;
+		float: left;
+		}
+	#veg {
+		width: 60%;	
+		}
+	nav {
+		width: 60%;
+	}
+	footer {
+		width: 60%;
+	}
+	p {
+		width: 60%;
+	}
+	header, h1, h2, h3, h4 {
+		width: 60%;
+	}
+
+}*/
 
